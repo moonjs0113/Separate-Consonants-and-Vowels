@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C72681C6285BFA9400FF72F5 /* MakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72681C5285BFA9300FF72F5 /* MakeViewModel.swift */; };
-		C72681C8285C090800FF72F5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72681C7285C090800FF72F5 /* LoginView.swift */; };
 		C7442700285B251E00AA4566 /* KorWordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74426FF285B251E00AA4566 /* KorWordleApp.swift */; };
-		C7442702285B251E00AA4566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7442701285B251E00AA4566 /* ContentView.swift */; };
+		C7442702285B251E00AA4566 /* SeparateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7442701285B251E00AA4566 /* SeparateView.swift */; };
 		C7442704285B251F00AA4566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7442703285B251F00AA4566 /* Assets.xcassets */; };
 		C7442707285B251F00AA4566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7442706285B251F00AA4566 /* Preview Assets.xcassets */; };
-		C7ED6320285C3E45006ABD0C /* AppleLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ED631F285C3E45006ABD0C /* AppleLoginButton.swift */; };
+		C771269B286489ED00E5954B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C771269A286489ED00E5954B /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C72681C5285BFA9300FF72F5 /* MakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeViewModel.swift; sourceTree = "<group>"; };
-		C72681C7285C090800FF72F5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		C72681C9285C092F00FF72F5 /* KorWordle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KorWordle.entitlements; sourceTree = "<group>"; };
 		C72681CA285C093E00FF72F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C74426FC285B251E00AA4566 /* KorWordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KorWordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74426FF285B251E00AA4566 /* KorWordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KorWordleApp.swift; sourceTree = "<group>"; };
-		C7442701285B251E00AA4566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7442701285B251E00AA4566 /* SeparateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateView.swift; sourceTree = "<group>"; };
 		C7442703285B251F00AA4566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7442706285B251F00AA4566 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C7ED631F285C3E45006ABD0C /* AppleLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginButton.swift; sourceTree = "<group>"; };
+		C771269A286489ED00E5954B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +58,8 @@
 				C72681CA285C093E00FF72F5 /* Info.plist */,
 				C72681C9285C092F00FF72F5 /* KorWordle.entitlements */,
 				C74426FF285B251E00AA4566 /* KorWordleApp.swift */,
-				C7442701285B251E00AA4566 /* ContentView.swift */,
-				C72681C7285C090800FF72F5 /* LoginView.swift */,
-				C72681C5285BFA9300FF72F5 /* MakeViewModel.swift */,
-				C7ED631F285C3E45006ABD0C /* AppleLoginButton.swift */,
+				C7442701285B251E00AA4566 /* SeparateView.swift */,
+				C771269A286489ED00E5954B /* ViewModel.swift */,
 				C7442703285B251F00AA4566 /* Assets.xcassets */,
 				C7442705285B251F00AA4566 /* Preview Content */,
 			);
@@ -150,10 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C72681C6285BFA9400FF72F5 /* MakeViewModel.swift in Sources */,
-				C7ED6320285C3E45006ABD0C /* AppleLoginButton.swift in Sources */,
-				C7442702285B251E00AA4566 /* ContentView.swift in Sources */,
-				C72681C8285C090800FF72F5 /* LoginView.swift in Sources */,
+				C7442702285B251E00AA4566 /* SeparateView.swift in Sources */,
+				C771269B286489ED00E5954B /* ViewModel.swift in Sources */,
 				C7442700285B251E00AA4566 /* KorWordleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +286,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +319,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
