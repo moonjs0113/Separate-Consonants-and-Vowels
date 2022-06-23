@@ -9,12 +9,9 @@ import SwiftUI
 
 @main
 struct KorWordleApp: App {
-    
-    
-    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SeparateView()
         }
     }
 }
