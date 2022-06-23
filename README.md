@@ -9,8 +9,10 @@
 [Version-image]: https://img.shields.io/badge/Version-1.0-blue.svg?style=flat
 
 ## App View
-|<img src="./gitFile/main.PNG">|<img src="./gitFile/input.PNG">|
-|:-:|:-:|
+<div align="center" />
+    <img src="./gitFile/main.PNG" alt="main" height="500"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./gitFile/input.PNG" alt="input" height="500"/>
+</div>
 
 
 ## Feature
