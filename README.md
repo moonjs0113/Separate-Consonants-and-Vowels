@@ -23,3 +23,6 @@
 ## Requirments
 - iOS 15.0+
 - Xcode 13.0+
+
+## Git Action
+Git Action을 사용해봅니다.
